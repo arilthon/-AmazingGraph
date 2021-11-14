@@ -11,9 +11,8 @@ ul {
   list-style: none;
 }
 
-img {
-  display: block;
-  max-width: 100%;
+a {
+  text-decoration: none;
 }
 
 * {
@@ -51,4 +50,49 @@ img {
 
 .menu-nav li:hover {
   color: #d2872c;
+}
+
+/* introdução*/
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 1 300px;
+  padding: 70px;
+}
+
+.intro-text h1 {
+  font-size: 3em;
+  color: #766f68;
+  margin: 0;
+  position: relative;
+}
+.intro p {
+  font-size: 1.5em;
+  color: #766f68;
+  line-height: 1.3;
+}
+
+.sobre-img {
+  flex: 1 1 300px;
+
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.button {
+  background-color: #d2872c;
+  color: white;
+  height: 3.5rem;
+  width: 14.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.35rem;
+  border-radius: 0.7rem;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
